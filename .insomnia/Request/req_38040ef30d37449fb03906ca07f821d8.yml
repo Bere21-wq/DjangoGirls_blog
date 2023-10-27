@@ -1,0 +1,62 @@
+_id: req_38040ef30d37449fb03906ca07f821d8
+type: Request
+parentId: fld_af1115b7ec2a4631a8f55cc6afc75770
+modified: 1698424936053
+created: 1630276796951
+url: "{{host}}/back-office/transactions/5/evidences/"
+name: Evidence info
+description: >-
+  ## 200 OK
+
+  ```json
+
+  {
+    "id": 1,
+    "receipt": "http://minio:9000/nea/evidence_transaction_receipts/dogge.png?AWSAccessKeyId=AKIAIOSFODNN7EXAMPLE&Signature=xOD0fJLGKNf0fO3yRAGeRC7vpn0%3D&Expires=1630280521",
+    "invoice": "http://minio:9000/nea/evidence_trasaction_invoices/sample.pdf?AWSAccessKeyId=AKIAIOSFODNN7EXAMPLE&Signature=%2F%2BDHb7yrOrCETbmKfeb1p4VbxtM%3D&Expires=1630280521",
+    "invoice_xml": "http://minio:9000/nea/evidence_trasaction_invoices/note.xml?AWSAccessKeyId=AKIAIOSFODNN7EXAMPLE&Signature=vnUnzwRmmkyEX2xMs2ggPdrqEKw%3D&Expires=1630280521"
+  }
+
+  ```
+
+
+  ## 403 Forbidden
+
+  ```json
+
+  {
+    "detail": "You do not have permission to perform this action."
+  }
+
+  ```
+
+
+  ## 401 Unauthorized
+
+  ``` json
+
+  {
+    "detail": "Authentication credentials were not provided."
+  }
+
+  ```
+method: GET
+body: {}
+parameters: []
+headers:
+  - description: ""
+    id: pair_d38dffd5291d4d25861c25c60e815ffd
+    name: Authorization
+    value: Token {{token}}
+authentication:
+  prefix: Token
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1630352088190.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
