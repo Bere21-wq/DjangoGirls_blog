@@ -1,19 +1,19 @@
-_id: req_5f1017f92dc54f2fadc8fde888d2f31b
+_id: req_f672adfef3bc495f940d6519f9134134
 type: Request
-parentId: wrk_588f6d4156d349039721c493fefa8dc4
-modified: 1698688785299
-created: 1698688759614
+parentId: fld_6404b4f09453489899b811a16e2b9fb2
+modified: 1698689442835
+created: 1698689433013
 url: ""
-name: Nuevo request
+name: Petición
 description: ""
-method: POST
+method: GET
 body: {}
 parameters: []
 headers:
   - name: User-Agent
     value: insomnia/8.3.0
 authentication: {}
-metaSortKey: -1698688759614
+metaSortKey: -1698689433013
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
