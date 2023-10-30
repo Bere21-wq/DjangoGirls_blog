@@ -1,0 +1,23 @@
+_id: req_5f1017f92dc54f2fadc8fde888d2f31b
+type: Request
+parentId: wrk_588f6d4156d349039721c493fefa8dc4
+modified: 1698688785299
+created: 1698688759614
+url: ""
+name: Nuevo request
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.3.0
+authentication: {}
+metaSortKey: -1698688759614
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
